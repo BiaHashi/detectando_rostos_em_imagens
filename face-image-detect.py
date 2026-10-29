@@ -13,6 +13,6 @@ print(faces)
 for (x,y,w,h) in faces:
     cv2.rectangle(img,(x,y),(x+w,y+h),(203,192,255),2)
 
-cv2.imshow("IMG",img)
+cv2.imshow("IMAGE",img)
 
 cv2.waitKey(0)
